@@ -84,14 +84,6 @@ class _Question3pageWidgetState extends State<Question3pageWidget> {
                               mainAxisSize: MainAxisSize.max,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Align(
-                                  alignment: AlignmentDirectional(0.00, 0.00),
-                                  child: Image.asset(
-                                    'assets/images/Image_10-11-23_at_3.04_PM.jpg',
-                                    height: 50.0,
-                                    fit: BoxFit.cover,
-                                  ),
-                                ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 15.0, 0.0, 0.0),
@@ -158,11 +150,13 @@ class _Question3pageWidgetState extends State<Question3pageWidget> {
                                     .titleSmall
                                     .override(
                                       fontFamily: 'Readex Pro',
-                                      color: FlutterFlowTheme.of(context).white,
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondaryText,
                                     ),
                                 elevation: 3.0,
                                 borderSide: BorderSide(
-                                  color: FlutterFlowTheme.of(context).white,
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryText,
                                   width: 1.0,
                                 ),
                                 borderRadius: BorderRadius.circular(8.0),

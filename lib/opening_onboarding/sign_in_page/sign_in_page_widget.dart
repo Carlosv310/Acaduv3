@@ -424,7 +424,7 @@ class _SignInPageWidgetState extends State<SignInPageWidget>
                                 ),
                             elevation: 0.0,
                             borderSide: BorderSide(
-                              color: FlutterFlowTheme.of(context).success,
+                              color: FlutterFlowTheme.of(context).customColor4,
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(12.0),

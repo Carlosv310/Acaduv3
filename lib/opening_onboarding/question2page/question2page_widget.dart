@@ -87,14 +87,6 @@ class _Question2pageWidgetState extends State<Question2pageWidget> {
                           mainAxisSize: MainAxisSize.max,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Align(
-                              alignment: AlignmentDirectional(0.00, 0.00),
-                              child: Image.asset(
-                                'assets/images/Image_10-11-23_at_3.04_PM.jpg',
-                                height: 50.0,
-                                fit: BoxFit.cover,
-                              ),
-                            ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 15.0, 0.0, 0.0),
