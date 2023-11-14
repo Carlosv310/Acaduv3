@@ -172,7 +172,7 @@ class _Question1pageWidgetState extends State<Question1pageWidget> {
                                 onPressed: () async {
                                   await currentUserReference!
                                       .update(createUsersRecordData(
-                                    displayName: currentUserDisplayName,
+                                    displayName: _model.nameController.text,
                                   ));
 
                                   context.pushNamed('question2page');
