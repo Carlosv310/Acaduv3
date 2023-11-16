@@ -230,7 +230,7 @@ class _EnglishA16WidgetState extends State<EnglishA16Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'In option A, the verb \"is\" agrees with the singular subject \"teacher\" and makes the sentence grammatically correct. The other options have subject-verb agreement errors.',
+                          'This option provides a concise and grammatically correct way of combining the two sentences, maintaining clarity and coherence.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

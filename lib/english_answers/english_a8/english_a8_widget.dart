@@ -230,7 +230,7 @@ class _EnglishA8WidgetState extends State<EnglishA8Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option A correctly uses commas to separate items in a list. Option B is missing necessary commas, and option C uses commas incorrectly, and option D adds unnecessary commas.',
+                          'The logical sequence is to first introduce the formulation of the hypothesis (B), then describe the unexpected results of the experiment (A), followed by the analysis of the data (C), and finally, the drawing of conclusions and recommendations (D).',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

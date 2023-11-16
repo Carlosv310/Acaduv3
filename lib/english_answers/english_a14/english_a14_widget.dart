@@ -230,7 +230,7 @@ class _EnglishA14WidgetState extends State<EnglishA14Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'In option D, \"it\'s\" is the contraction of \"it is,\" and \"its\" is the possessive form. The other options have incorrect uses of these words.',
+                          'This option is concise and clear, placing the introductory phrase at the beginning for better readability. It avoids unnecessary complexity and maintains a direct structure.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

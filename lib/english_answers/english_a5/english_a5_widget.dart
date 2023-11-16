@@ -230,7 +230,7 @@ class _EnglishA5WidgetState extends State<EnglishA5Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'The compound sentence is: \"He went to the store, and she baked cookies.\" \n\nA compound sentence combines two sentences using words such as \"and\", commas, and semi-colons (;).',
+                          'The synonym for \"ephemeral\" is \"fleeting,\" meaning lasting for a very short time.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

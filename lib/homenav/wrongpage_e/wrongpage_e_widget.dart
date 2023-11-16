@@ -233,7 +233,7 @@ class _WrongpageEWidgetState extends State<WrongpageEWidget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Shoot! Almost there. Chill, go back, and give it another go. \n\nAcadu is here for you bro. ',
+                          'Darn! You\'re so close. Take a moment, regroup, and try again. Acadu is here to support you.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

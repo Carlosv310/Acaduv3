@@ -230,7 +230,7 @@ class _MathA15WidgetState extends State<MathA15Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'The probability of drawing a red ball on the first draw is 5/8. \n\nAfter the first red ball is drawn, there are 4 red balls and 7 total balls remaining. So, the probability of drawing another red ball is 4/7.\nThe probability that both are red is\n5/8 X 4/7 = 20/56. ',
+                          'If sin θ = 3/5, then cos θ = \nSqrt. (1-sin ^2 θ)\n= 4/5\n',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

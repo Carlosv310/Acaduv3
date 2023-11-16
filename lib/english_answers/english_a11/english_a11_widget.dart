@@ -230,7 +230,7 @@ class _EnglishA11WidgetState extends State<EnglishA11Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option C is the correct choice. It correctly uses \"they\'re\" to mean \"they are\" and \"there\" to indicate a location. The other options have incorrect uses of these words.',
+                          'The sentence indicates that the speaker\'s arguments lacked the necessary quality to convince the audience. \"Cogency\" refers to the quality of being clear, logical, and convincing, making it the most appropriate choice in this context.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

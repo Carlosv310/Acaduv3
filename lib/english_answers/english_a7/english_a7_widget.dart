@@ -230,7 +230,7 @@ class _EnglishA7WidgetState extends State<EnglishA7Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option B is the correct choice because it has proper grammar and punctuation. The comma in option A is unnecessary, and options C and D have incorrect placements of commas and incorrect word order.',
+                          'The subject \"The professor, along with her students\" is singular, so the verb should also be singular. The correct form is \"is going.\"',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

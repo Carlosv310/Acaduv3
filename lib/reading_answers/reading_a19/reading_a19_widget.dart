@@ -230,7 +230,7 @@ class _ReadingA19WidgetState extends State<ReadingA19Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option C improves clarity and conciseness by eliminating the phrase \"It is my belief that\" and directly stating the main point. The other options are wordier and less direct.',
+                          'The uncertainty about the timing of the mother\'s death contributes to a sense of ambiguity and existential uncertainty. It reflects the narrator\'s indifferent and detached attitude toward life and death.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

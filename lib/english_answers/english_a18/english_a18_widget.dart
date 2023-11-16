@@ -230,7 +230,7 @@ class _EnglishA18WidgetState extends State<EnglishA18Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'In option B, \"If I were the president\" correctly uses the subjunctive mood, indicating a hypothetical or contrary-to-fact situation. The other options use incorrect verb forms.',
+                          'The phrase \"dual aspects\" refers to two contrasting or opposing elements. Among the given alternatives, \"opposing facets\" best captures the idea of two different aspects, maintaining the original meaning of the passage.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

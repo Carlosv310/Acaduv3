@@ -230,7 +230,7 @@ class _EnglishA2WidgetState extends State<EnglishA2Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'The correct word to complete the sentence is \"home.\" The sentence should be: \"I can\'t believe I left my phone at home.\"',
+                          'This option correctly uses a semicolon to connect two closely related independent clauses, creating a clear and effective sentence structure.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

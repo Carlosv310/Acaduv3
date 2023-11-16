@@ -230,7 +230,7 @@ class _EnglishA19WidgetState extends State<EnglishA19Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option B maintains parallel structure by using \"honesty,\" \"integrity,\" and \"hard work\" as parallel elements. The other options have issues with parallelism.',
+                          'This sentence provides an effective transition by connecting the responsibility of individuals discussed in the previous paragraph with the responsibility of platforms. It maintains coherence and smoothly introduces the idea of a collaborative effort to address misinformation.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

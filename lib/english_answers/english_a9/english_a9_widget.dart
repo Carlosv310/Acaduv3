@@ -230,7 +230,7 @@ class _EnglishA9WidgetState extends State<EnglishA9Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'The correct option is C because it removes the double negative \"can\'t hardly,\" which makes the sentence grammatically correct. \"Can hardly\" means \"almost,\" which is the intended meaning here.',
+                          'The sentence mentions that the author skillfully employs a narrative structure that is intricate. To maintain a logical contrast, the word that completes the sentence should convey a sense of complexity. \"Convoluted\" means intricate and complex, making it the most appropriate choice.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

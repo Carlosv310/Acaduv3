@@ -230,7 +230,7 @@ class _EnglishA10WidgetState extends State<EnglishA10Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          ' The correct verb form is \"are\" because it agrees with the plural subject \"students.\" \"Neither...nor\" sentences take the verb form that agrees with the closer subject, which is plural in this case.',
+                          'The sentence describes the artist\'s work as ethereal (otherworldly, delicate), so the word that completes the sentence should contrast with this by conveying a sense of something solid or touchable. \"Tangible\" means perceptible by touch and fits the context well.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

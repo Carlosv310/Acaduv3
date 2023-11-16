@@ -230,7 +230,7 @@ class _EnglishA6WidgetState extends State<EnglishA6Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'In this context, \"singular\" means exceptional or unique, which fits the sentence\'s meaning. The word \"singular\" is the most appropriate choice to describe the artist\'s talent.',
+                          'The word \"fortuitous\" means happening by chance or luck, which fits well in the context of the sentence describing her success as not accidental but the result of her hard work.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(
