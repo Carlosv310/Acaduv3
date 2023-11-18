@@ -4216,7 +4216,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                   .fromSTEB(
                                                       16.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                '1. \n\nChoose the sentence that is correctly \npunctuated:\n\na) John said, \"I will be there by 3 p.m.\"\nb) John said \"I will be there by 3 p.m\".\nc) John said, \"I will be there by 3 p.m.\"\n',
+                                                '1. \n\nDespite the _____ weather, the \noutdoor event went on as planned.\n\nA) Inclement\nB) Amiable\nC) Mellifluous\nD) Quixotic\n',
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -4314,6 +4314,38 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                 context.pushNamed('WrongpageM');
                                               },
                                               text: 'C.',
+                                              options: FFButtonOptions(
+                                                height: 40.0,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        24.0, 0.0, 24.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFE6585A),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .titleSmall
+                                                        .override(
+                                                          fontFamily:
+                                                              'Readex Pro',
+                                                          color: Colors.white,
+                                                        ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1.0,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(8.0),
+                                              ),
+                                            ),
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                context.pushNamed('WrongpageM');
+                                              },
+                                              text: 'D.',
                                               options: FFButtonOptions(
                                                 height: 40.0,
                                                 padding: EdgeInsetsDirectional
@@ -5639,6 +5671,38 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                     BorderRadius.circular(8.0),
                                               ),
                                             ),
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                context.pushNamed('WrongpageE');
+                                              },
+                                              text: 'D.',
+                                              options: FFButtonOptions(
+                                                height: 40.0,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        24.0, 0.0, 24.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFE6585A),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .titleSmall
+                                                        .override(
+                                                          fontFamily:
+                                                              'Readex Pro',
+                                                          color: Colors.white,
+                                                        ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1.0,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(8.0),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -5799,18 +5863,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                await currentUserReference!
-                                                    .update({
-                                                  ...mapToFirestore(
-                                                    {
-                                                      'englishpoints':
-                                                          FieldValue.increment(
-                                                              50),
-                                                    },
-                                                  ),
-                                                });
-
-                                                context.pushNamed('EnglishA9');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -5925,20 +5978,41 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                await currentUserReference!
-                                                    .update({
-                                                  ...mapToFirestore(
-                                                    {
-                                                      'englishpoints':
-                                                          FieldValue.increment(
-                                                              50),
-                                                    },
-                                                  ),
-                                                });
-
-                                                context.pushNamed('EnglishA10');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'B.',
+                                              options: FFButtonOptions(
+                                                height: 40.0,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        24.0, 0.0, 24.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFE6585A),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .titleSmall
+                                                        .override(
+                                                          fontFamily:
+                                                              'Readex Pro',
+                                                          color: Colors.white,
+                                                        ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1.0,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(8.0),
+                                              ),
+                                            ),
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                context.pushNamed('WrongpageE');
+                                              },
+                                              text: 'D.',
                                               options: FFButtonOptions(
                                                 height: 40.0,
                                                 padding: EdgeInsetsDirectional
@@ -5982,38 +6056,6 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                 context.pushNamed('EnglishA10');
                                               },
                                               text: 'C.',
-                                              options: FFButtonOptions(
-                                                height: 40.0,
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        24.0, 0.0, 24.0, 0.0),
-                                                iconPadding:
-                                                    EdgeInsetsDirectional
-                                                        .fromSTEB(
-                                                            0.0, 0.0, 0.0, 0.0),
-                                                color: Color(0xFFE6585A),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleSmall
-                                                        .override(
-                                                          fontFamily:
-                                                              'Readex Pro',
-                                                          color: Colors.white,
-                                                        ),
-                                                elevation: 3.0,
-                                                borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
-                                            ),
-                                            FFButtonWidget(
-                                              onPressed: () async {
-                                                context.pushNamed('EnglishA5');
-                                              },
-                                              text: 'D.',
                                               options: FFButtonOptions(
                                                 height: 40.0,
                                                 padding: EdgeInsetsDirectional
@@ -6410,7 +6452,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                   .fromSTEB(
                                                       16.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                '13. \n\nChoose the option that best improves \nthe clarity and conciseness of the \nsentence.\n\nIt was her intention to complete the \nproject, which was given to her by the \nprofessor.\n\nA) She intended to complete the project \ngiven by the professor.\nB) Her intention was to complete the \nproject given by the professor.\nC) The project given by the professor \nwas her intention to complete.\n',
+                                                '13. \n\nChoose the answer that best expresses \nthe meaning of the original sentence.\n\nHis attempts to fix the computer were \nfutile, and he eventually called a \ntechnician for help.\n\nA) Failing to fix the computer, he \neventually called a technician for help.\nB) His futile attempts to fix the computer \nled him to call a technician for help.\nC) Eventually, he called a technician for \nhelp after futile attempts to fix the \ncomputer.\nD) NO CHANGE\n',
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -6508,6 +6550,38 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                 context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
+                                              options: FFButtonOptions(
+                                                height: 40.0,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        24.0, 0.0, 24.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFE6585A),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .titleSmall
+                                                        .override(
+                                                          fontFamily:
+                                                              'Readex Pro',
+                                                          color: Colors.white,
+                                                        ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1.0,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(8.0),
+                                              ),
+                                            ),
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                context.pushNamed('WrongpageE');
+                                              },
+                                              text: 'D.',
                                               options: FFButtonOptions(
                                                 height: 40.0,
                                                 padding: EdgeInsetsDirectional
@@ -6758,7 +6832,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                   .fromSTEB(
                                                       16.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                '15. \n\nIdentify the word or phrase that is \nredundant or unnecessary in the \nsentence.\n\n\"The new innovation is an entirely new \nconcept that will revolutionize the \nindustry.\"\n\nA) new innovation\nB) concept\nC) entirely new\nD) None are uncessary\n',
+                                                '15. \n\nChoose the answer that best combines \neach pair of sentences into a single, \ncoherent sentence.\n\nSentence 1: The movie was entertaining.\nSentence 2: It had an engaging plot.\n\nA) The movie was entertaining with an \nengaging plot.\nB) The movie, with an engaging plot, \nwas entertaining.\nC) Entertaining and with an engaging \nplot, was the movie.\nD) NO CHANGE\n',
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -7676,7 +7750,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                   .fromSTEB(
                                                       16.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                '20. \n\nSelect the option that improves the \nclarity and conciseness of the sentence.\n\n\"Despite the fact that she had no prior \nexperience, she managed to complete \nthe task successfully.\"\n\nA) Although she had no prior experience, \nshe completed the task successfully.\nB) Despite her lack of prior experience, \nshe completed the task successfully.\nC) She completed the task successfully \neven though she had no prior experience.\n',
+                                                '20. \n\nChoose the answer that best revises \n\"as well the after-party, were canceled\" \nin the sentence below. If the original \nversion is correct, choose \"NO CHANGE.\"\n\nThe concert, as well as the after-party, \nwere canceled due to bad weather.\n\nA) were canceled\nB) has been canceled\nC) was canceled\nD) NO CHANGE\n',
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -7774,6 +7848,38 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                                 context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
+                                              options: FFButtonOptions(
+                                                height: 40.0,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        24.0, 0.0, 24.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFE6585A),
+                                                textStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .titleSmall
+                                                        .override(
+                                                          fontFamily:
+                                                              'Readex Pro',
+                                                          color: Colors.white,
+                                                        ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
+                                                  color: Colors.transparent,
+                                                  width: 1.0,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(8.0),
+                                              ),
+                                            ),
+                                            FFButtonWidget(
+                                              onPressed: () async {
+                                                context.pushNamed('WrongpageE');
+                                              },
+                                              text: 'D.',
                                               options: FFButtonOptions(
                                                 height: 40.0,
                                                 padding: EdgeInsetsDirectional

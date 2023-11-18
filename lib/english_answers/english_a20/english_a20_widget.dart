@@ -230,7 +230,7 @@ class _EnglishA20WidgetState extends State<EnglishA20Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'Option A improves clarity and conciseness by using \"Although\" to indicate a contrast and eliminates unnecessary words. The other options are wordier and less clear.',
+                          'The correct answer is C) was canceled. When using \"as well as,\" the verb should agree with the first subject, which is \"The concert.\"',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

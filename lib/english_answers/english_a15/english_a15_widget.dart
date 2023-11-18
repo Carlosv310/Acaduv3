@@ -230,7 +230,7 @@ class _EnglishA15WidgetState extends State<EnglishA15Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          ' In the sentence, \"The new innovation is an entirely new concept that will revolutionize the industry,\" the word \"concept\" is redundant because \"innovation\" already implies the idea or concept.\n\nTherefore, option B is correct.',
+                          'The correct answer is B) The movie, with an engaging plot, was entertaining. This option combines the two sentences into a single, coherent sentence.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(

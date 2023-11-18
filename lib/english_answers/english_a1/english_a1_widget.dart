@@ -230,7 +230,7 @@ class _EnglishA1WidgetState extends State<EnglishA1Widget>
                         padding: EdgeInsetsDirectional.fromSTEB(
                             44.0, 8.0, 44.0, 0.0),
                         child: Text(
-                          'The correctly punctuated sentence is: \"John said, \'I will be there by 3 p.m.\'\"',
+                          '\"Inclement\" means stormy or severe, which fits the context of adverse or harsh weather.',
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ).animateOnPageLoad(
