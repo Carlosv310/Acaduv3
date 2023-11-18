@@ -128,3 +128,4 @@ export '/reading_answers/reading_a20/reading_a20_widget.dart'
     show ReadingA20Widget;
 export '/reading_answers/reading_a21/reading_a21_widget.dart'
     show ReadingA21Widget;
+export '/avatarnav/resetpoints/resetpoints_widget.dart' show ResetpointsWidget;

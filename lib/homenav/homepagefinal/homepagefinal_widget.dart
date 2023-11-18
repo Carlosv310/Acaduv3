@@ -4279,7 +4279,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'B.',
                                               options: FFButtonOptions(
@@ -4311,7 +4311,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
                                               options: FFButtonOptions(
@@ -4343,7 +4343,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -4469,7 +4469,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'B.',
                                               options: FFButtonOptions(
@@ -4501,7 +4501,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
                                               options: FFButtonOptions(
@@ -4533,7 +4533,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -4616,7 +4616,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                           children: [
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'A.',
                                               options: FFButtonOptions(
@@ -4691,7 +4691,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
                                               options: FFButtonOptions(
@@ -4723,7 +4723,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -4806,7 +4806,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                           children: [
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'A.',
                                               options: FFButtonOptions(
@@ -4838,7 +4838,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'B.',
                                               options: FFButtonOptions(
@@ -4913,7 +4913,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -4996,7 +4996,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                           children: [
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'A.',
                                               options: FFButtonOptions(
@@ -5071,7 +5071,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'C.',
                                               options: FFButtonOptions(
@@ -5103,7 +5103,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageM');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'D.',
                                               options: FFButtonOptions(
@@ -7770,18 +7770,7 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                           children: [
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                await currentUserReference!
-                                                    .update({
-                                                  ...mapToFirestore(
-                                                    {
-                                                      'englishpoints':
-                                                          FieldValue.increment(
-                                                              50),
-                                                    },
-                                                  ),
-                                                });
-
-                                                context.pushNamed('EnglishA20');
+                                                context.pushNamed('WrongpageE');
                                               },
                                               text: 'A.',
                                               options: FFButtonOptions(
@@ -7845,7 +7834,18 @@ class _HomepagefinalWidgetState extends State<HomepagefinalWidget>
                                             ),
                                             FFButtonWidget(
                                               onPressed: () async {
-                                                context.pushNamed('WrongpageE');
+                                                await currentUserReference!
+                                                    .update({
+                                                  ...mapToFirestore(
+                                                    {
+                                                      'englishpoints':
+                                                          FieldValue.increment(
+                                                              50),
+                                                    },
+                                                  ),
+                                                });
+
+                                                context.pushNamed('EnglishA20');
                                               },
                                               text: 'C.',
                                               options: FFButtonOptions(

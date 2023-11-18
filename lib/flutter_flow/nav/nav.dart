@@ -497,6 +497,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'ReadingA21',
           path: '/readingA21',
           builder: (context, params) => ReadingA21Widget(),
+        ),
+        FFRoute(
+          name: 'Resetpoints',
+          path: '/resetpoints',
+          builder: (context, params) => ResetpointsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
