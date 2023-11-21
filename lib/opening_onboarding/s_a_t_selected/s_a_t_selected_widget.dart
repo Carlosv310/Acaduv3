@@ -85,7 +85,7 @@ class _SATSelectedWidgetState extends State<SATSelectedWidget>
           children: [
             Container(
               width: 100.0,
-              height: 31.0,
+              height: 120.0,
               decoration: BoxDecoration(
                 color: FlutterFlowTheme.of(context).background,
               ),
