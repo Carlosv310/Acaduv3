@@ -180,7 +180,7 @@ class _Question3pageWidgetState extends State<Question3pageWidget> {
                                 0.0, 10.0, 0.0, 0.0),
                             child: FFButtonWidget(
                               onPressed: () async {
-                                context.pushNamed('homepagefinal');
+                                context.pushNamed('SATSelected');
                               },
                               text: 'Continue',
                               options: FFButtonOptions(

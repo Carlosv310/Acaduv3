@@ -502,6 +502,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Resetpoints',
           path: '/resetpoints',
           builder: (context, params) => ResetpointsWidget(),
+        ),
+        FFRoute(
+          name: 'SATSelected',
+          path: '/sATSelected',
+          builder: (context, params) => SATSelectedWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

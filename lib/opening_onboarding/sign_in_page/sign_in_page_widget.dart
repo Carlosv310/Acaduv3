@@ -250,7 +250,8 @@ class _SignInPageWidgetState extends State<SignInPageWidget>
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: BorderSide(
-                                color: FlutterFlowTheme.of(context).primary,
+                                color:
+                                    FlutterFlowTheme.of(context).customColor4,
                                 width: 2.0,
                               ),
                               borderRadius: BorderRadius.circular(12.0),
@@ -305,7 +306,8 @@ class _SignInPageWidgetState extends State<SignInPageWidget>
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: BorderSide(
-                                color: FlutterFlowTheme.of(context).primary,
+                                color:
+                                    FlutterFlowTheme.of(context).customColor4,
                                 width: 2.0,
                               ),
                               borderRadius: BorderRadius.circular(12.0),
@@ -414,17 +416,18 @@ class _SignInPageWidgetState extends State<SignInPageWidget>
                                 0.0, 0.0, 0.0, 0.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: FlutterFlowTheme.of(context)
-                                .secondaryBackground,
+                            color: FlutterFlowTheme.of(context).alternate,
                             textStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   fontFamily: 'Readex Pro',
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryText,
                                   fontSize: 18.0,
                                 ),
                             elevation: 0.0,
                             borderSide: BorderSide(
-                              color: FlutterFlowTheme.of(context).customColor4,
+                              color: FlutterFlowTheme.of(context).alternate,
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(12.0),

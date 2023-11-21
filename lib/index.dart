@@ -128,3 +128,5 @@ export '/reading_answers/reading_a20/reading_a20_widget.dart'
 export '/reading_answers/reading_a21/reading_a21_widget.dart'
     show ReadingA21Widget;
 export '/avatarnav/resetpoints/resetpoints_widget.dart' show ResetpointsWidget;
+export '/opening_onboarding/s_a_t_selected/s_a_t_selected_widget.dart'
+    show SATSelectedWidget;
