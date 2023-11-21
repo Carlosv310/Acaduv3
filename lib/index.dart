@@ -48,8 +48,7 @@ export '/opening_onboarding/sign_in_page/sign_in_page_widget.dart'
     show SignInPageWidget;
 export '/friendsnav/friendspage/friendspage_widget.dart' show FriendspageWidget;
 export '/avatarnav/editprofile/editprofile_widget.dart' show EditprofileWidget;
-export '/avatarnav/changepassword/changepassword_widget.dart'
-    show ChangepasswordWidget;
+export '/avatarnav/helppage/helppage_widget.dart' show HelppageWidget;
 export '/math_answers/math_a6/math_a6_widget.dart' show MathA6Widget;
 export '/math_answers/math_a7/math_a7_widget.dart' show MathA7Widget;
 export '/math_answers/math_a8/math_a8_widget.dart' show MathA8Widget;

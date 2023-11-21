@@ -257,9 +257,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ),
         ),
         FFRoute(
-          name: 'Changepassword',
-          path: '/changepassword',
-          builder: (context, params) => ChangepasswordWidget(
+          name: 'Helppage',
+          path: '/helppage',
+          builder: (context, params) => HelppageWidget(
             newname: params.getParam('newname', ParamType.String),
           ),
         ),
