@@ -141,11 +141,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ),
         ),
         FFRoute(
-          name: 'question3page',
-          path: '/question3page',
-          builder: (context, params) => Question3pageWidget(),
-        ),
-        FFRoute(
           name: 'homepagefinal',
           path: '/homepagefinal',
           builder: (context, params) => params.isEmpty
@@ -507,6 +502,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'SATSelected',
           path: '/sATSelected',
           builder: (context, params) => SATSelectedWidget(),
+        ),
+        FFRoute(
+          name: 'Question3pagee',
+          path: '/question3pagee',
+          builder: (context, params) => Question3pageeWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

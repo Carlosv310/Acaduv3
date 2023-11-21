@@ -13,8 +13,6 @@ export '/opening_onboarding/question2page/question2page_widget.dart'
     show Question2pageWidget;
 export '/opening_onboarding/question1page/question1page_widget.dart'
     show Question1pageWidget;
-export '/opening_onboarding/question3page/question3page_widget.dart'
-    show Question3pageWidget;
 export '/homenav/homepagefinal/homepagefinal_widget.dart'
     show HomepagefinalWidget;
 export '/math_answers/math_a1/math_a1_widget.dart' show MathA1Widget;
@@ -130,3 +128,5 @@ export '/reading_answers/reading_a21/reading_a21_widget.dart'
 export '/avatarnav/resetpoints/resetpoints_widget.dart' show ResetpointsWidget;
 export '/opening_onboarding/s_a_t_selected/s_a_t_selected_widget.dart'
     show SATSelectedWidget;
+export '/opening_onboarding/question3pagee/question3pagee_widget.dart'
+    show Question3pageeWidget;

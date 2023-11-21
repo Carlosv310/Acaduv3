@@ -176,7 +176,7 @@ class _Question2pageWidgetState extends State<Question2pageWidget> {
                                         _model.textController.text),
                                   ));
 
-                                  context.pushNamed('question3page');
+                                  context.pushNamed('Question3pagee');
                                 },
                                 text: 'Continue',
                                 options: FFButtonOptions(

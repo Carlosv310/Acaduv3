@@ -164,7 +164,7 @@ class _OpeningpageWidgetState extends State<OpeningpageWidget>
                                       fontFamily: 'Plus Jakarta Sans',
                                       color: FlutterFlowTheme.of(context).white,
                                       fontSize: 18.0,
-                                      fontWeight: FontWeight.bold,
+                                      fontWeight: FontWeight.w600,
                                     ),
                             elevation: 0.0,
                             borderSide: BorderSide(
